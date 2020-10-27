@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "4ff5ceeb-2b76-4de8-a5b7-c4e514ace6ea",
+		"name": "place",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "place",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"user-agent": true,
+					"host": true,
+					"content-length": true
+				}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "AAIkZTExZDg2ZTQtNzNhMS00ZmY4LWI4MjMtYWQzYjI5ODk2Y2U5d22YlmJp3GeknSgUQ8RGdjY5cmt6gtJ1OVh1rU31aDh7BIbzSL77JwnwGc-uuoUxlW0CbKl3AaWLfdBktgKWai-1QS6kWs2qqJT1e18CShwHWgm06akSMip9b-nP04hY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Origin",
+						"value": "https://beta.interieur.gouv.fr",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36",
+						"type": "text"
+					},
+					{
+						"key": "X-USER-ID",
+						"value": "5dc049ca1749280010e19546",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "same-origin",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "cors",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "https://beta.interieur.gouv.fr/candilib/candidat/92/CLAMART/octobre/mardi%2013%20octobre%202020/2020-10-13T14:30:00.000+02:00/selection/selection-confirmation",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nomCentre\":\"CLAMART\",\r\n\"geoDepartement\":\"92\"\r\n,\"date\":\"2020-10-27T14:15:00.000+02:00\",\r\n\"isAccompanied\":true,\r\n\"hasDualControlCar\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
